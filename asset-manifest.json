@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.1b184f10.css",
+    "main.js": "/portfolio/static/js/main.ce1db066.js",
+    "static/js/787.28cb0dcd.chunk.js": "/portfolio/static/js/787.28cb0dcd.chunk.js",
+    "static/media/SocialCats.png": "/portfolio/static/media/SocialCats.271d264d655bbad113ab.png",
+    "static/media/blud2.png": "/portfolio/static/media/blud2.87bac022e9793d75b488.png",
+    "static/media/ProjectMinion.png": "/portfolio/static/media/ProjectMinion.cb1633a65bd6f5a6b449.png",
+    "static/media/Blud1.png": "/portfolio/static/media/Blud1.20a45d7d59e712f91bd9.png",
+    "static/media/SocialBooks.png": "/portfolio/static/media/SocialBooks.1b560731e454efc23bda.png",
+    "static/media/projectYes.png": "/portfolio/static/media/projectYes.5034338ad3b3267a0509.png",
+    "static/media/SocialAnimes.png": "/portfolio/static/media/SocialAnimes.c4896615e15026fc32a8.png",
+    "static/media/socialFilms.png": "/portfolio/static/media/socialFilms.d64e75ed1d01230ec457.png",
+    "static/media/ProjectBeer.png": "/portfolio/static/media/ProjectBeer.348cd151e13106e1a1be.png",
+    "static/media/SocialPlayeer.png": "/portfolio/static/media/SocialPlayeer.8a3640c7cd0b30c3a385.png",
+    "static/media/beerEach.png": "/portfolio/static/media/beerEach.c488aa9bd270696bd0da.png",
+    "static/media/beer2.png": "/portfolio/static/media/beer2.3f0f328313e53234a145.png",
+    "static/media/kisspng-smiley-emoticon-clip-art-5adcc1944123d1.png": "/portfolio/static/media/kisspng-smiley-emoticon-clip-art-5adcc1944123d1.1561243315244169162668.75284f1b55db84317996.png",
+    "static/media/beerReg.png": "/portfolio/static/media/beerReg.8ead1040fc0bc6fc11ff.png",
+    "static/media/beerBandl.png": "/portfolio/static/media/beerBandl.fd34d17861fd58ae0cbe.png",
+    "static/media/beerreg2.png": "/portfolio/static/media/beerreg2.666ea2b9bbe5f730c7d2.png",
+    "static/media/beerregw.png": "/portfolio/static/media/beerregw.72893c9c607d4160c50d.png",
+    "static/media/blud3.png": "/portfolio/static/media/blud3.297966fc4d23437856e1.png",
+    "static/media/mail.png": "/portfolio/static/media/mail.bea7bb059e3d2a70d8ec.png",
+    "static/media/calen.png": "/portfolio/static/media/calen.249d7328f1d09c84b263.png",
+    "static/media/blud4.png": "/portfolio/static/media/blud4.b5b8964b78b9cf189fa3.png",
+    "static/media/logoRuslanDay.png": "/portfolio/static/media/logoRuslanDay.51581efe24963670c27c.png",
+    "static/media/todo.png": "/portfolio/static/media/todo.ddb2b2d0f152705fdf6c.png",
+    "static/media/logoRuslanNight.png": "/portfolio/static/media/logoRuslanNight.2023aae5b7faab3e6eb0.png",
+    "static/media/bkud5.png": "/portfolio/static/media/bkud5.76dfc81d6b2e7aebadb7.png",
+    "static/media/telega.png": "/portfolio/static/media/telega.ccb720c3eb048133eb0b.png",
+    "static/media/vkontakte.png": "/portfolio/static/media/vkontakte.8f59a49313608c793186.png",
+    "static/media/watsapp.png": "/portfolio/static/media/watsapp.a878795dc6580e28ce3a.png",
+    "index.html": "/portfolio/index.html",
+    "main.1b184f10.css.map": "/portfolio/static/css/main.1b184f10.css.map",
+    "main.ce1db066.js.map": "/portfolio/static/js/main.ce1db066.js.map",
+    "787.28cb0dcd.chunk.js.map": "/portfolio/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1b184f10.css",
+    "static/js/main.ce1db066.js"
+  ]
+}
