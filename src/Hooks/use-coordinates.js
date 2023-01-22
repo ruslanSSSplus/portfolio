@@ -1,17 +1,27 @@
-import { useLayoutEffect, useState } from 'react'
+import {useEffect, useState, useLayoutEffect} from "react";
 
-const isDarkTheme = window?.matchMedia('(prefers-color-scheme: dark)').matches
-const defaultTheme = isDarkTheme ? 'dark' : 'light'
 
-export const useTheme = () => {
-    const [theme, setTheme] = useState(
-        localStorage.getItem('app-theme') || defaultTheme
-    )
 
-    useLayoutEffect(() => {
-        document.documentElement.setAttribute('data-theme', theme)
-        localStorage.setItem('app-theme', theme)
-    }, [theme])
 
-    return { theme, setTheme }
-}
+export const useCoordinates = () => {
+
+    const [x, setX] = useState(0)
+    const [y, setY] = useState(0)
+
+    useEffect(() => {
+        document.addEventListener('mousemove', getMouseCoordinates);
+        return function () {
+            document.removeEventListener('mousemove', getMouseCoordinates);
+        }
+    }, [])
+
+
+    const getMouseCoordinates = (e) => {
+        let _x = e.pageX;
+        let _y = e.pageY;
+        setX(_x)
+        setY(_y)
+    }
+
+        return { x, y}
+    }

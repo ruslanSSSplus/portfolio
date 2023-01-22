@@ -35,12 +35,18 @@
         -webkit-transform: skew(10deg);
         -moz-transform: skew(10deg);
         -o-transform: skew(10deg);
+        -webkit-box-shadow: -15px 16px 10px 2px rgba(34, 60, 80, 0.2);
+        -moz-box-shadow: -15px 16px 10px 2px rgba(34, 60, 80, 0.2);
+        box-shadow: -15px 16px 10px 2px rgba(34, 60, 80, 0.2);
     }
 
     to {
         -webkit-transform: skew(-10deg);
         -moz-transform: skew(-10deg);
         -o-transform: skew(-10deg);
+        -webkit-box-shadow: 15px 16px 10px 2px rgba(34, 60, 80, 0.2);
+        -moz-box-shadow: 15px 16px 10px 2px rgba(34, 60, 80, 0.2);
+        box-shadow: 15px 16px 10px 2px rgba(34, 60, 80, 0.2);
     }
 }
 

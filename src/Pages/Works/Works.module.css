@@ -25,3 +25,13 @@
         grid-gap: 1em;
     }
 }
+.text1{
+    font-size: 40px;
+    color: var(--text-color);
+    transition: background-color 200ms linear;
+}
+.text2{
+    font-size: 30px;
+    color: var(--text-color);
+    transition: background-color 200ms linear;
+}

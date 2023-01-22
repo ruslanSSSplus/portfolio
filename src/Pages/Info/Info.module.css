@@ -43,6 +43,10 @@ animation-duration: 3s;
 }
 
 .text1{
+    letter-spacing: 2px;
+    font-size: 50px;
+    color: var(--text-color);
+    transition: background-color 200ms linear;
     animation-name: text;
     animation-duration: 1s;
 }
@@ -58,10 +62,19 @@ animation-duration: 3s;
     }
 }
 .text2{
+    letter-spacing:3px;
+    margin-bottom:30px ;
+    font-size: 40px;
+    color: var(--text-color);
+    transition: background-color 200ms linear;
     animation-name: text;
     animation-duration: 2s;
 }
 .text3{
+    letter-spacing: 4px;
+    font-size: 30px;
+    color: var(--text-color);
+    transition: background-color 200ms linear;
     animation-name: text;
     animation-duration: 3s;
 }
@@ -77,5 +90,21 @@ animation-duration: 3s;
     }
     .me{
         padding-top: 15vh;
+    }
+}
+
+
+.test{
+width: 40px;
+    animation-name: testAnim;
+    animation-duration: 2s;
+}
+@keyframes testAnim{
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
     }
 }

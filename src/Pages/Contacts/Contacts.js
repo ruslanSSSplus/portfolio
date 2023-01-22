@@ -1,6 +1,6 @@
 import React from 'react';
 import classes from './Contacts.module.css'
-import mail from  '../../assets/mail.png'
+import mail from '../../assets/mail.png'
 import tg from '../../assets/telega.png'
 import wa from '../../assets/watsapp.png'
 import vk from '../../assets/vkontakte.png'

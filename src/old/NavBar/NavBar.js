@@ -4,7 +4,7 @@ import { Link } from "react-scroll";
 
 export const NavBar = () => {
     return (
-        <div className={classes.wrapper} id="NavBar">
+        <div className={classes.wrapper} id="NavBar1">
             <div className={classes.left}>
                 <div className={classes.name}>Ruslan</div>
             </div>

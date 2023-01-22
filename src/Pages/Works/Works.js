@@ -13,12 +13,14 @@ export const Works = () => {
     useEffect(() => {
         AOS.init();
     }, [])
+
     return (
-        <div className={classes.all} id="Works">
-            <p >
+        <section id="Works">
+        <div className={classes.all}>
+            <p className={classes.text1}>
                 Мои проекты
             </p>
-            <p>
+            <p className={classes.text2}>
 
                 По клику по ним, откроется новая вкладка с проектом
             </p>
@@ -26,11 +28,11 @@ export const Works = () => {
 
                 {
                     projects.map(project =>
-                        <Carousel data-aos={project.anim} >
+                        <Carousel data-aos={project.anim} data-aos-delay={'300'} data-aos-duration={'700'} key={project.name}>
 
                             {
                                 project.pictures.map(picture =>
-                                    <Carousel.Item   onClick={() =>  window.open(project.link)}>
+                                    <Carousel.Item   onClick={() =>  window.open(project.link)} key={picture}>
                                     <img
                                         className={classes.img}
                                         src={picture}
@@ -49,5 +51,6 @@ export const Works = () => {
             </div>
 
         </div>
+        </section>
     );
 };
