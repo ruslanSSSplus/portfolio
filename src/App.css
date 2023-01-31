@@ -1,18 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
 .App{
-  padding: 0.5rem 3.5rem;
-  overflow: hidden;
+
+
   color:black;
   font-family: 'Raleway', sans-serif;
+  overflow: hidden;
+  position: relative;
 }
 @media screen and (max-width: 480px) {
   .App {
-    padding: 0.5rem 1rem;
 
   }
 }
 .App {
   background-color: var(--background-color);
+
+
   transition: background-color 200ms linear;
 }
 

@@ -14,9 +14,9 @@ code {
 html[data-theme='dark'] {
   --text-color: #ffffff;
   height: 100vh;
-  --header-color: #2F353B;
+  --header-color: #12021C;
 
-  --background-color: #1C1D25;
+  --background-color: #1B0826;
 }
 
 html[data-theme='light'] {

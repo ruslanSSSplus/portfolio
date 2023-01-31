@@ -17,22 +17,24 @@ export const Works = () => {
     return (
         <section id="Works">
         <div className={classes.all}>
-            <p className={classes.text1}>
-                Мои проекты
-            </p>
-            <p className={classes.text2}>
+            <div className={classes.text}>
+                <p className={classes.text1}>
+                    Мои проекты
+                </p>
+                <p className={classes.text2}>
+                    По клику по ним, откроется новая вкладка с проектом
+                </p>
+            </div>
 
-                По клику по ним, откроется новая вкладка с проектом
-            </p>
             <div className={classes.projects}>
 
                 {
                     projects.map(project =>
-                        <Carousel data-aos={project.anim} data-aos-delay={'300'} data-aos-duration={'700'} key={project.name}>
+                        <Carousel data-aos={project.anim} data-aos-delay={'300'} data-aos-duration={'700'} key={project.name} className={classes.container}>
 
                             {
                                 project.pictures.map(picture =>
-                                    <Carousel.Item   onClick={() =>  window.open(project.link)} key={picture}>
+                                    <Carousel.Item   onClick={() =>  window.open(project.link)} key={picture} className={classes.container}>
                                     <img
                                         className={classes.img}
                                         src={picture}

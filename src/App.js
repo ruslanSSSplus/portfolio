@@ -29,7 +29,7 @@ function App() {
     <div className='App' id={'App'} >
 
 
-    <NavBar handleDarkThemeClick={ handleDarkThemeClick} handleLightThemeClick={handleLightThemeClick}/>
+    <NavBar handleDarkThemeClick={ handleDarkThemeClick} handleLightThemeClick={handleLightThemeClick} theme={theme}/>
 
       <Info theme={theme} x={x} y={y} />
       <Works />

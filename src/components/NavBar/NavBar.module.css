@@ -3,14 +3,12 @@
     flex: 1;
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: center;
     font-weight: 400;
     font-size: 30px;
     gap: 2rem;
-    margin-right: 4rem;
 }
 .num{
-    text-decoration: none;
     font-size: 30px;
     color: var(--text-color);
     transition: background-color 200ms linear;
@@ -29,6 +27,9 @@
     transition: background-color 200ms linear;
 }
 .header{
+
+    margin: 0 auto;
+    z-index: 1;
     background-color: var(--header-color);
     transition: background-color 200ms linear;
 }
@@ -42,9 +43,8 @@
     .toggle2{
         display: block;
     }
-    .right {
+}
 
-        margin-right: 0;
-    }
+.tg{
 
 }

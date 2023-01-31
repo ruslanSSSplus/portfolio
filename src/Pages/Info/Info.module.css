@@ -2,11 +2,36 @@
     text-align: center;
     display: grid;
     grid-template-columns: 1fr 2fr;
-    grid-template-areas: "a b";
-    gap: 1em;
-    height: 88vh;
+    grid-template-rows: 90% 10%;
+    grid-template-areas: "a b"
+                    "f f";
+
+
+    height: calc(100vh - 50px);;
+    background-image: linear-gradient(to right, var(--background-color) 25%, transparent 200%);
+    background-size: cover;
+    background-position: center;
+
+
+}
+.fu{
+    grid-area: f;
+    font-size: 30px;
+    color: whitesmoke;
+}
+.fu:hover{
+    scale: 1.05;
+    cursor: pointer;
+}
+.all2{
+    background-image: url("../../assets/meprof.jpg");
+    webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 .img{
+    z-index: 10;
     max-width: 1000px;
     width: 100%;
 }
@@ -17,7 +42,7 @@
     grid-area: b;
     width: 100%;
     height: 100%;
-
+    z-index: 1;
 animation-name: slidein;
 animation-duration: 3s;
 
@@ -39,12 +64,19 @@ animation-duration: 3s;
 }
 
 .me{
-    padding-top: 30vh;
+
+    padding-left: 100px;
+    text-align: left;
+    grid-area: a;
+    z-index: 1;
+    padding-top: 35vh;
 }
 
 .text1{
+
     letter-spacing: 2px;
-    font-size: 50px;
+    font-size: 80px;
+    font-weight: bold;
     color: var(--text-color);
     transition: background-color 200ms linear;
     animation-name: text;
@@ -71,6 +103,7 @@ animation-duration: 3s;
     animation-duration: 2s;
 }
 .text3{
+    font-weight: bold;
     letter-spacing: 4px;
     font-size: 30px;
     color: var(--text-color);
@@ -86,15 +119,17 @@ animation-duration: 3s;
         display: grid;
         grid-template-areas: "a"
         "b";
-        height: 95vh;
     }
     .me{
+
         padding-top: 15vh;
     }
 }
 
 
 .test{
+
+    overflow: hidden;
 width: 40px;
     animation-name: testAnim;
     animation-duration: 2s;
